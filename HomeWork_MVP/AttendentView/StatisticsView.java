@@ -17,7 +17,6 @@ public abstract class StatisticsView<T extends User> {
     public void takeCriteria() {
         for (T student : this.students) {
             this.findCriteria(student);
-            System.out.println(((Student) student).criteria);
         } 
     }
 
